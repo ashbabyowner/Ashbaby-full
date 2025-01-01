@@ -1,0 +1,5 @@
+{
+    "workbench.editorLargeFileConfirmation": 999999,
+    "files.autoSave": "onWindowChange",
+    "cmake.options.statusBarVisibility": "visible"
+}

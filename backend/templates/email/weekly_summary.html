@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Your Weekly Financial Summary{% endblock %}
+
+{% block content %}
+<div class="alert alert-info">
+    <h2>Weekly Overview</h2>
+    <div class="metrics">
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(summary.total_income) }}</div>
+            <div class="metric-label">Total Income</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(summary.total_expenses) }}</div>
+            <div class="metric-label">Total Expenses</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(summary.net_savings) }}</div>
+            <div class="metric-label">Net Savings</div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h3>Spending Analysis</h3>
+    <p>Your highest spending category this week was <strong>{{ summary.top_spending_category }}</strong>.</p>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ spending_chart }}" alt="Spending by Category">
+    </div>
+</div>
+
+<div class="section">
+    <h3>Income vs Expenses</h3>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ income_expenses_chart }}" alt="Income vs Expenses">
+    </div>
+</div>
+
+<div class="section">
+    <h3>Budget Progress</h3>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ budget_chart }}" alt="Budget Progress">
+    </div>
+</div>
+
+<div class="section">
+    <h3>Savings Goals Progress</h3>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ savings_chart }}" alt="Savings Goals Progress">
+    </div>
+</div>
+
+<div class="alert alert-info">
+    <p>A detailed PDF report is attached to this email for your records.</p>
+    <a href="#" class="button">View Full Report Online</a>
+</div>
+{% endblock %}

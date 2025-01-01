@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Budget Alert: {{ category }}{% endblock %}
+
+{% block content %}
+<div class="alert alert-warning">
+    <h2>Budget Alert</h2>
+    <p>You've spent <strong>{{ "%.1f"|format(percentage) }}%</strong> of your budget for {{ category }}.</p>
+    
+    <div class="metrics">
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(budget) }}</div>
+            <div class="metric-label">Budget</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(spent) }}</div>
+            <div class="metric-label">Spent</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(budget - spent) }}</div>
+            <div class="metric-label">Remaining</div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h3>Category Spending Overview</h3>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ spending_chart }}" alt="Category Spending">
+    </div>
+</div>
+
+<div class="section">
+    <h3>Recommendations</h3>
+    <ul>
+        <li>Review your recent transactions in this category</li>
+        <li>Consider adjusting your spending for the rest of the month</li>
+        <li>Update your budget if needed</li>
+    </ul>
+</div>
+
+<a href="#" class="button">View Budget Details</a>
+{% endblock %}

@@ -1,0 +1,6 @@
+@Ash_again_HostAddress = http://localhost:5160
+
+GET {{Ash_again_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

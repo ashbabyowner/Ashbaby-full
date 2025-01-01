@@ -1,0 +1,14 @@
+{
+  "name": "New Docker Compose",
+  "type": "docker-compose",
+  "dockerComposeFile": "docker-compose-new.yml",
+  "service": "new-service-name",
+  "runArgs": ["-p", "9090:90"],
+  "env": {
+    "NODE_ENV": "production",
+    "API_URL": "http://localhost:9090"
+  },
+  "dockerComposeOptions": {
+    "verbose": false
+  }
+}

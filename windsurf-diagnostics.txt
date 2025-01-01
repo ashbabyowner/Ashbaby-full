@@ -1,0 +1,552 @@
+{
+  "systemInfo": {
+    "operatingSystem": "win32",
+    "windsurfVersion": "11.0.0",
+    "userEmail": "ashbaby4life1@gmail.com",
+    "timestamp": "2024-12-31T19:23:29.471Z",
+    "installationId": "744e22e6-63ed-4bd0-b549-6e259e00c2ee"
+  },
+  "userSettings": {
+    "openMostRecentChatConversation": true,
+    "lastSelectedModel": "MODEL_UNSPECIFIED",
+    "themePreference": "THEME_PREFERENCE_UNSPECIFIED",
+    "extensionPanelTab": "EXTENSION_PANEL_TAB_UNSPECIFIED",
+    "fontSize": "FONT_SIZE_DEFAULT",
+    "autocompleteSpeed": "AUTOCOMPLETE_SPEED_FAST",
+    "rememberLastModelSelection": "REMEMBER_LAST_MODEL_SELECTION_UNSPECIFIED",
+    "lastSelectedModelName": "",
+    "lastSelectedCascadeModel": "MODEL_CLAUDE_3_5_SONNET_20241022",
+    "cascadeNuxStates": [
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      }
+    ],
+    "cascadePlannerMode": "CONVERSATIONAL_PLANNER_MODE_DEFAULT",
+    "cascadeAllowedCommands": [],
+    "cascadeDeniedCommands": [],
+    "enableModelBasedAutoExecution": false
+  },
+  "languageServerLogs": {
+    "languageServerDiagnostics": {
+      "logs": [
+        "I1231 11:49:12.885554  7420 main.go:568] Setting GOMAXPROCS to 8\n",
+        "I1231 11:49:12.892492  7420 main.go:780] Starting language server process with pid 7420\n",
+        "I1231 11:49:12.893045  7420 server.go:216] Language server will attempt to listen on host 127.0.0.1\n",
+        "I1231 11:49:12.908811  7420 server.go:223] Language server listening on random port at 56589\n",
+        "I1231 11:49:13.816162  7420 unleash.go:92] Initializing Unleash\n",
+        "I1231 11:49:14.027386  7420 unleash.go:112] Successfully initialized Unleash\n",
+        "I1231 11:49:14.038478  7420 server.go:291] Created extension server client at port 56578\n",
+        "E1231 11:49:14.836542  7420 client_manager.go:275] Metadata is nil when trying to refresh user JWT\n",
+        "I1231 11:49:14.851283  7420 server.go:524] Successfully created API server client\n",
+        "I1231 11:49:15.028044  7420 server.go:542] Successfully initialized tokenizer\n",
+        "I1231 11:49:16.431686  7420 server.go:717] Local search is enabled, will index local files.\n",
+        "I1231 11:49:16.431686  7420 server.go:721] Using 2 indexer workers\n",
+        "I1231 11:49:16.499720  7420 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 68ms\n",
+        "I1231 11:49:16.501417  7420 indexer.go:213] Using 8 embed workers\n",
+        "I1231 11:49:16.504203  7420 search_provider.go:274] Successfully created and started indexer\n",
+        "I1231 11:49:16.504828  7420 search_provider.go:304] Successfully created embedding search provider\n",
+        "I1231 11:49:16.521912  7420 server.go:809] Successfully created completion provider\n",
+        "I1231 11:49:16.544943  7420 server.go:352] LSP listening on random port at 56600\n",
+        "I1231 11:49:16.734282  7420 utils.go:227] Analyzing workspace files for c:/Users/Cortn/CascadeProjects/ai-support-app\n",
+        "I1231 11:49:16.812679  7420 utils.go:281] Done analyzing workspace files for c:/Users/Cortn/CascadeProjects/ai-support-app\n",
+        "I1231 11:49:17.087448  7420 lazy_model.go:31] Successfully created embedding store\n",
+        "I1231 12:05:14.861884  7420 client_manager.go:253] Pruning inactive client for {8e0efbb1-b107-42eb-ac89-c5b36db7226f }\n",
+        "I1231 12:06:10.014476  7420 completion_provider.go:301] Updating implicit trajectory for document file:///c:/Users/Cortn/CascadeProjects/ai-support-app/Dockerfile\n",
+        "I1231 12:12:05.078472  7420 completion_provider.go:301] Updating implicit trajectory for document file:///c:/Users/Cortn/CascadeProjects/ai-support-app/Dockerfile\n",
+        "I1231 12:18:14.841297  7420 client_manager.go:253] Pruning inactive client for {8e0efbb1-b107-42eb-ac89-c5b36db7226f }\n",
+        "I1231 13:27:20.058716  7420 completion_provider.go:301] Updating implicit trajectory for document file:///c:/Users/Cortn/CascadeProjects/ai-support-app/Dockerfile\n",
+        "I1231 13:36:14.838199  7420 client_manager.go:253] Pruning inactive client for {8e0efbb1-b107-42eb-ac89-c5b36db7226f }\n",
+        "E1231 13:53:18.863805  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: executor is already running\n",
+        "I1231 13:57:04.354610  7420 utils.go:227] Analyzing workspace files for c:/Users/Cortn/CascadeProjects/ai-support-app\n",
+        "I1231 13:57:04.974546  7420 utils.go:281] Done analyzing workspace files for c:/Users/Cortn/CascadeProjects/ai-support-app\n",
+        "E1231 14:11:36.843047  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:12:09.541439  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:12:51.946611  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:13:49.771219  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "I1231 14:17:14.840037  7420 client_manager.go:253] Pruning inactive client for {8e0efbb1-b107-42eb-ac89-c5b36db7226f }\n",
+        "E1231 14:17:57.125252  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:18:02.049060  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: trajectory not found\n",
+        "E1231 14:18:42.843302  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:20:28.395467  7420 embedding.go:41] GetEmbeddings error: inference api server wire error: rpc error: code = Unavailable desc = closing transport due to: connection error: desc = \"error readin(truncated...)osing transport due to: connection error: desc = \"error reading from server: read tcp 10.102.248.119:40944->10.102.39.204:50050: read: connection reset by peer\", received prior goaway: code: NO_ERROR\n",
+        "E1231 14:22:41.518937  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n",
+        "E1231 14:22:47.487634  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: trajectory not found\n",
+        "E1231 14:23:16.486555  7420 interceptor.go:54] /exa.language_server_pb.LanguageServerService/SendUserCascadeMessage: insufficient input credits for this request\n"
+      ]
+    }
+  },
+  "recentTrajectories": [
+    {
+      "cascadeId": "7299676e-aaf7-4cf9-b575-40f37542c711",
+      "summary": "Building and Deploying an App  ",
+      "lastStepIndex": 62,
+      "lastModifiedTime": "2024-12-31T19:11:06.672Z"
+    },
+    {
+      "cascadeId": "6537d8cf-0776-4807-ae59-7ac5a334a33d",
+      "summary": "Building an Omniscient AI System  ",
+      "lastStepIndex": 423,
+      "lastModifiedTime": "2024-12-31T16:18:22.677Z"
+    }
+  ],
+  "consoleLogs": [
+    "[WARN] 2024-12-31 11:49:25.465 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:49:25.466 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:49:25.466 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:49:25.467 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:49:25.467 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:49:25.467 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[LOG] 2024-12-31 11:59:53.872 [ExtensionClient] logging event 36 ",
+    "[WARN] 2024-12-31 11:59:54.56 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:54.56 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:54.57 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:54.57 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:54.200 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:54.201 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:57.945 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 11:59:57.946 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.249 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.249 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.249 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.249 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.250 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:0:9.250 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:4.529 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:4.536 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:9.397 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:9.425 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:11.188 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:11.188 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.623 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.623 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.623 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.624 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.674 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:6:15.674 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 12:6:31.823 [AsyncPostMessage] handleOpenDiffZones timed out (id: d6gHuQAqJw9EsD5avrle9WonoWGQNmgB)",
+    "[WARN] 2024-12-31 12:11:52.219 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:11:52.223 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:11:58.28 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:11:58.28 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:5.15 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:5.34 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:5.569 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:5.569 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.963 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.963 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.964 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.964 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.964 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 12:12:9.965 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 12:12:26.360 [AsyncPostMessage] handleOpenDiffZones timed out (id: DjCPMsZIYsOtKUK8gmW7pWCIlZgUrllC)",
+    "[WARN] 2024-12-31 13:27:8.706 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:8.707 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:16.30 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:16.30 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:19.927 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:19.968 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:20.935 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:20.935 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.606 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.606 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.607 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.607 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.608 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:27.608 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 13:27:27.838 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: NjTOSDosRL2blGph7uxZeiXm37YHBf0K)",
+    "[ERROR] 2024-12-31 13:27:41.552 [AsyncPostMessage] handleOpenDiffZones timed out (id: fo4Ea0VQP3xcQMb6ANE1CFIRvIoUrPmJ)",
+    "[WARN] 2024-12-31 13:27:54.398 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:54.426 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:54.427 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:54.427 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:54.427 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:27:54.427 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 13:28:38.857 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: 9yMluMiLtyznrjl2xad86hIfOV3YpqKf)",
+    "[ERROR] 2024-12-31 13:28:41.783 [AsyncPostMessage] handleCloseAllDiffZones timed out (id: 4LKfRNF77KA9wHL4FfOI8ydnjNG3OcJX)",
+    "[LOG] 2024-12-31 13:30:40.579 [ExtensionClient] logging event 36 ",
+    "[WARN] 2024-12-31 13:30:40.839 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:40.839 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.523 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.523 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.524 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.524 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.525 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:44.525 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.979 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.980 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.981 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.981 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.982 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:30:53.982 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 13:53:19.46 ConnectError: [unknown] executor is already running",
+    "[ERROR] 2024-12-31 13:53:58.528 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: WpUo5G6ulKuNfY7BhUMphcYYKNUsh6J7)",
+    "[LOG] 2024-12-31 13:54:3.806 [ExtensionClient] logging event 36 ",
+    "[WARN] 2024-12-31 13:54:4.751 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:4.751 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.204 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.204 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.205 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.205 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.206 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:54:16.206 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:45.869 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:45.870 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.37 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.37 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.38 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.38 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.40 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:58:54.40 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 13:59:5.174 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: Q4KDNGjtzu9GFhsrVpwqI5Jb73augzFB)",
+    "[LOG] 2024-12-31 13:59:24.371 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 13:59:24.571 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: GFodQnQsz9xaggtmUrfvYQY3wUJRPaNz)",
+    "[WARN] 2024-12-31 13:59:24.835 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:24.835 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:30.557 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:30.557 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:32.455 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:32.455 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:32.757 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:32.758 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:35.812 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:35.813 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:38.732 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:38.732 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.740 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.741 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.741 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.742 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.743 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:42.743 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.623 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.623 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.625 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.626 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.627 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 13:59:50.627 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 13:59:53.169 [AsyncPostMessage] handleOpenDiffZones timed out (id: 7CX2V7ENtTkRiPMxeGVFM8QyCfAaljNn)",
+    "[ERROR] 2024-12-31 13:59:59.344 [AsyncPostMessage] handleOpenDiffZones timed out (id: 4LiLe3r9C3DBMD8P5hRh0KWyQt8VJqR2)",
+    "[WARN] 2024-12-31 14:4:28.957 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:28.960 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:28.963 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:28.963 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:28.965 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:28.965 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.189 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.189 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.190 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.190 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.191 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:4:38.191 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.272 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.273 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.276 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.276 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.729 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:6:29.729 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:49.487 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:49.487 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:49.489 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:49.489 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:50.0 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:10:50.0 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[LOG] 2024-12-31 14:11:33.611 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:11:36.631 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: QHK6fZcyzcbCExlVItgyfCrd7seNmBhJ)",
+    "[ERROR] 2024-12-31 14:11:37.906 ConnectError: [unknown] insufficient input credits for this request",
+    "[ERROR] 2024-12-31 14:11:40.421 [AsyncPostMessage] handleCloseAllDiffZones timed out (id: KERGkB770jhxb6mFWvll4agIZiL2IoLS)",
+    "[LOG] 2024-12-31 14:12:8.202 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:12:9.965 ConnectError: [unknown] insufficient input credits for this request",
+    "[LOG] 2024-12-31 14:12:51.680 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:12:51.955 ConnectError: [unknown] insufficient input credits for this request",
+    "[LOG] 2024-12-31 14:13:49.373 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:13:49.884 ConnectError: [unknown] insufficient input credits for this request",
+    "[LOG] 2024-12-31 14:17:56.747 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:17:57.164 ConnectError: [unknown] insufficient input credits for this request",
+    "[WARN] 2024-12-31 14:18:1.964 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.964 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.965 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.965 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.965 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.965 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.966 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.966 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.966 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:1.966 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 14:18:2.61 ConnectError: [unknown] trajectory not found",
+    "[WARN] 2024-12-31 14:18:2.148 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:2.148 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:2.149 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:2.149 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:2.150 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:2.150 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 14:18:21.610 [AsyncPostMessage] handleCloseAllDiffZones timed out (id: 0WMAwlxNPW86EJDUfMCk1MsmioKfiqja)",
+    "[LOG] 2024-12-31 14:18:42.733 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:18:42.848 ConnectError: [unknown] insufficient input credits for this request",
+    "[WARN] 2024-12-31 14:18:42.876 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:42.876 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:42.876 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:18:42.876 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[LOG] 2024-12-31 14:22:41.124 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:22:41.574 ConnectError: [unknown] insufficient input credits for this request",
+    "[WARN] 2024-12-31 14:22:47.405 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.405 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.406 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.406 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.406 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.406 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.407 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.407 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.407 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.407 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:47.408 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 14:22:47.499 ConnectError: [unknown] trajectory not found",
+    "[WARN] 2024-12-31 14:22:52.92 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.92 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.93 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.93 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.94 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.94 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.95 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.95 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.95 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.96 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.96 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.97 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.97 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.97 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.98 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.98 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.100 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.100 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.101 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.101 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.102 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.103 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.104 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.104 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.105 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.105 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.106 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.106 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.107 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.107 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.107 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.107 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.108 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.108 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.109 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.109 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.110 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.110 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.111 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.111 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.112 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.113 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.113 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.113 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.114 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.114 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.115 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.115 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.116 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.116 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.117 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.117 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.119 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.119 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.120 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.120 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.121 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.121 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.121 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.121 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.122 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.123 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.123 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.123 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.124 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.124 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.125 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.125 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.128 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.128 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.129 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.129 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.130 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.130 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.131 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.131 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.132 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.132 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.133 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.133 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.134 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.134 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.135 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.136 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.136 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.137 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.137 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.137 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.138 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.138 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.139 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.139 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.139 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.140 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.208 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.208 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.209 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2024-12-31 14:22:52.209 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2024-12-31 14:23:7.329 [AsyncPostMessage] handleCloseAllDiffZones timed out (id: hadmwu7dh1Pl7nOCKrkwdp6WISzmUQMD)",
+    "[ERROR] 2024-12-31 14:23:12.377 [AsyncPostMessage] handleOpenDiffZones timed out (id: Cz40Ms7vDuqAbbkUWoDdneUK8oF3ddoX)",
+    "[ERROR] 2024-12-31 14:23:12.406 [AsyncPostMessage] handleOpenDiffZones timed out (id: ZGiLBCLhA4GdvYJtmPqP88pRn4fCTJky)",
+    "[ERROR] 2024-12-31 14:23:12.406 [AsyncPostMessage] handleOpenDiffZones timed out (id: jFC7mdGBigKAi2CNuu0jmxPK9Nk9LKpd)",
+    "[ERROR] 2024-12-31 14:23:12.407 [AsyncPostMessage] handleOpenDiffZones timed out (id: yKPXGgy0RMWDWS2eNbihjwgQazW7ZlU7)",
+    "[ERROR] 2024-12-31 14:23:12.407 [AsyncPostMessage] handleOpenDiffZones timed out (id: PI9QorSJYXrQ94v1zmFiMJjaRAfNsQMm)",
+    "[LOG] 2024-12-31 14:23:16.402 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2024-12-31 14:23:16.497 ConnectError: [unknown] insufficient input credits for this request"
+  ],
+  "currentCascadeId": "7299676e-aaf7-4cf9-b575-40f37542c711",
+  "currentLatestStepIndex": 62,
+  "currentTrajectoryId": "c5e9179c-7a05-4f4c-ae8f-5ddb983de326"
+}

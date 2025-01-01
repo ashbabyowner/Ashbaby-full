@@ -1,0 +1,70 @@
+{
+  "response_codes": {
+    "standard": [
+      400,
+      401,
+      403,
+      404,
+      415,
+      422,
+      500
+    ],
+    "success_get": 200,
+    "success_put": 202,
+    "success_post": 201,
+    "success_delete": 202,
+    "success_patch": 202,
+    "success_trace": 200,
+    "success_head": 200,
+    "success_options": 204
+  },
+  "security": {
+    "scheme": "None",
+    "scope_pattern": "{Resource}::{Action}",
+    "openid_connect_url": "https://api-studio.io/.well-known/openid-configuration",
+    "scheme_name_oauth2": "OAuth2",
+    "scheme_name_open_id_connect": "OpenIdConnect",
+    "scheme_name_basic": "basic_auth"
+  },
+  "specification": {
+    "vendor_name": "VendorName",
+    "product_name": "ProductName",
+    "api_name": "ApiName",
+    "contact_name": "info@vendor.com",
+    "contact_url": "https://vendor.com",
+    "description": "This is a simple example of common aspects you should consider covering when documenting your API. But, of course, the API documentation can include other topics, and the more information you provide consumers, the faster they can get started.\r\n\r\n## Overview\r\nThe **<API_NAME>** API is organized around RESTful resources. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the **<API_NAME>** API in test mode, not affecting your live data. The API token you use to authenticate the request determines whether the request is live or test mode.\r\n\r\nThe API supports idempotency for safely retrying requests without performing the same operation twice. This is useful when an API call is disrupted in transit and not receiving a response. For example, if a request to create a charge does not respond due to a network connection error, you can retry the request with the same ETag key to guaranteeing that no more than one charge is created.\r\n\r\nAll **POST** requests accept ETag keys. However, sending ETag keys in **GET** and **DELETE** requests has no effect and should be avoided, as these requests are idempotent by definition.\r\n\r\n## Security\r\nAuthentication to the API is performed via OAuth2. The **<API_NAME>** API uses an Authorization header with each request. Your API token carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.\r\n\r\n| Name              | Value     |\r\n| ----------------- | --------- |\r\n| **Authorization** | Bearer ***eyJ0eXAiOiJKV1QifQ==.eyJhdWQiOiJhcGktc3R1ZGlvLmlvIn0=.eMiOUrS_qAcfTcChjMmg*** |\r\n\r\nAll API requests must be made over HTTPS. Calls made over plain HTTP will be rejected. In addition, API requests without an Authorization header will be rejected (response 401).\r\n\r\n## Pagination\r\nAll collection API resources support bulk fetches via **GET** requests against a collection resource. The find API methods share a standard structure, taking at least these three parameters: limit and offset.\r\n\r\n## Error\r\n**<API_NAME>** uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success. Codes in the 4xx range indicate an error that failed given the information provided (e.g., a required parameter was omitted, a charge failed, etc.). Codes in the 5xx range indicate an error with Stripe's servers (these are rare).",
+    "audience": "Private"
+  },
+  "headers": {
+    "request": {
+      "User-Agent": {
+        "name": "User-Agent",
+        "description": "The User-Agent request header is a characteristic string that lets servers and network peers identify the application, operating system, vendor, and/or version of the requesting user agent.",
+        "is_required": true,
+        "allow_empty": false
+      },
+      "Accept": {
+        "name": "Accept",
+        "description": "The Accept request HTTP header indicates which content types, expressed as MIME types, the client is able to understand",
+        "is_required": true,
+        "allow_empty": false
+      }
+    },
+    "response": {
+      "Content-Type": {
+        "on_response": 0,
+        "name": "Content-Type",
+        "description": "The Content-Type representation header is used to indicate the original media type of the resource (prior to any content encoding applied for sending).",
+        "is_required": true,
+        "allow_empty": false
+      },
+      "Content-Length": {
+        "on_response": 0,
+        "name": "Content-Length",
+        "description": "The Content-Length header indicates the size of the message body, in bytes, sent to the recipient.",
+        "is_required": true,
+        "allow_empty": false
+      }
+    }
+  }
+}

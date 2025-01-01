@@ -1,0 +1,159 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: FastAPI",
+				"type": "python",
+				"request": "launch",
+				"module": "uvicorn",
+				"args": [
+					"backend.main:app",
+					"--reload",
+					"--port",
+					"8000"
+				],
+				"jinja": true,
+				"justMyCode": true,
+				"env": {
+					"PYTHONPATH": "${workspaceFolder}"
+				}
+			},
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true
+			},
+			{
+				"name": "Python: Debug Tests",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"purpose": ["debug-test"],
+				"console": "integratedTerminal",
+				"justMyCode": false
+			},
+			{
+				"args": [
+					"task"
+				],
+				"name": "Gulp task",
+				"program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+				"request": "launch",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			},
+			{
+				"name": "Launch Program",
+				"program": "${workspaceFolder}/app.js",
+				"request": "launch",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			},
+			{
+				"name": "Attach",
+				"port": 9229,
+				"request": "attach",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			},
+			{
+				"name": "Attach by Process ID",
+				"processId": "${command:PickProcess}",
+				"request": "attach",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			},
+			{
+				"address": "TCP/IP address of process to be debugged",
+				"localRoot": "${workspaceFolder}",
+				"name": "Attach to Remote",
+				"port": 9229,
+				"remoteRoot": "Absolute path to the remote directory containing the program",
+				"request": "attach",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			},
+			{
+				"name": "Launch Edge",
+				"request": "launch",
+				"type": "msedge",
+				"url": "http://localhost:8080",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
+				"name": "Attach to Edge",
+				"port": 9222,
+				"request": "attach",
+				"type": "msedge",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
+				"command": "npm start",
+				"name": "Run npm start",
+				"request": "launch",
+				"type": "node-terminal"
+			},
+			{
+				"name": "Docker .NET Attach (Preview)",
+				"type": "docker",
+				"request": "attach",
+				"platform": "netCore",
+				"sourceFileMap": {
+					"/src": "${workspaceFolder}"
+				}
+			},
+			{
+				"args": [
+					"--extensionDevelopmentPath=${workspaceFolder}"
+				],
+				"name": "Launch Extension",
+				"outFiles": [
+					"${workspaceFolder}/out/**/*.js"
+				],
+				"preLaunchTask": "npm",
+				"request": "launch",
+				"type": "extensionHost"
+			},
+			{
+				"type": "node",
+				"request": "attach",
+				"name": "Docker: Attach to Node",
+				"remoteRoot": "/usr/src/app"
+			}
+		]
+	},
+	"settings": {
+		"python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}"
+		],
+		"python.testing.pytestEnabled": true,
+		"python.testing.unittestEnabled": false,
+		"python.testing.nosetestsEnabled": false,
+		"python.linting.enabled": true,
+		"python.linting.flake8Enabled": true,
+		"[python]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "ms-python.python"
+		}
+	}
+}

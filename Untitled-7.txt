@@ -1,0 +1,14 @@
+{
+    "name": "Docker Compose",
+    "type": "docker-compose",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "your-service-name",
+    "runArgs": ["-p", "8080:80"],
+    "env": {
+        "NODE_ENV": "development",
+        "API_URL": "http://localhost:8080"
+    },
+    "dockerComposeOptions": {
+        "verbose": true
+    }
+}

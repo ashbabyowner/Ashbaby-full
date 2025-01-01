@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .summary-box {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .metric {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .metric-label {
+            font-size: 14px;
+            color: #666;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .progress-bar {
+            background-color: #e9ecef;
+            border-radius: 4px;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+        .progress-bar-fill {
+            background-color: #007bff;
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .chart {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .chart img {
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Financial Report</h1>
+        <p>Period: {{ data.period }}</p>
+        <p>Generated: {{ data.generated_at }}</p>
+    </div>
+
+    {% if data.health_report %}
+    <div class="section">
+        <h2 class="section-title">Financial Health Overview</h2>
+        <div class="summary-box">
+            <div class="metric">
+                <div class="metric-value">${{ "%.2f"|format(data.health_report.net_worth) }}</div>
+                <div class="metric-label">Net Worth</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ "%.1f"|format(data.health_report.savings_rate) }}%</div>
+                <div class="metric-label">Savings Rate</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ "%.1f"|format(data.health_report.emergency_fund_months) }}</div>
+                <div class="metric-label">Emergency Fund (months)</div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Monthly Income</td>
+                <td>${{ "%.2f"|format(data.health_report.monthly_income) }}</td>
+            </tr>
+            <tr>
+                <td>Monthly Expenses</td>
+                <td>${{ "%.2f"|format(data.health_report.monthly_expenses) }}</td>
+            </tr>
+            <tr>
+                <td>Debt to Income Ratio</td>
+                <td>{{ "%.2f"|format(data.health_report.debt_to_income) }}%</td>
+            </tr>
+        </table>
+    </div>
+    {% endif %}
+
+    {% if data.transactions %}
+    <div class="section">
+        <h2 class="section-title">Transaction Summary</h2>
+        <div class="chart">
+            <img src="temp/monthly_comparison.png" alt="Monthly Income vs Expenses">
+        </div>
+        <div class="chart">
+            <img src="temp/expense_distribution.png" alt="Expense Distribution">
+        </div>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+            {% for t in data.transactions %}
+            <tr>
+                <td>{{ t.date }}</td>
+                <td>{{ t.type|title }}</td>
+                <td>{{ t.category }}</td>
+                <td>${{ "%.2f"|format(t.amount) }}</td>
+                <td>{{ t.description }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% if data.budget_report %}
+    <div class="section">
+        <h2 class="section-title">Budget Analysis ({{ data.budget_report.month }})</h2>
+        <div class="summary-box">
+            <div class="metric">
+                <div class="metric-value">${{ "%.2f"|format(data.budget_report.total_budget) }}</div>
+                <div class="metric-label">Total Budget</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">${{ "%.2f"|format(data.budget_report.total_spent) }}</div>
+                <div class="metric-label">Total Spent</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ "%.1f"|format(data.budget_report.total_spent / data.budget_report.total_budget * 100) }}%</div>
+                <div class="metric-label">Budget Used</div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Budget</th>
+                <th>Spent</th>
+                <th>Remaining</th>
+                <th>Progress</th>
+            </tr>
+            {% for b in data.budget_report.budgets %}
+            <tr>
+                <td>{{ b.category }}</td>
+                <td>${{ "%.2f"|format(b.budget_amount) }}</td>
+                <td>${{ "%.2f"|format(b.spent_amount) }}</td>
+                <td>${{ "%.2f"|format(b.remaining) }}</td>
+                <td>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: {{ min(b.percentage_used, 100) }}%"></div>
+                    </div>
+                    {{ "%.1f"|format(b.percentage_used) }}%
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% if data.savings_report %}
+    <div class="section">
+        <h2 class="section-title">Savings Goals Progress</h2>
+        <div class="summary-box">
+            <div class="metric">
+                <div class="metric-value">${{ "%.2f"|format(data.savings_report.total_saved) }}</div>
+                <div class="metric-label">Total Saved</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">${{ "%.2f"|format(data.savings_report.total_target) }}</div>
+                <div class="metric-label">Total Target</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ "%.1f"|format(data.savings_report.total_saved / data.savings_report.total_target * 100) }}%</div>
+                <div class="metric-label">Overall Progress</div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>Goal</th>
+                <th>Target</th>
+                <th>Current</th>
+                <th>Progress</th>
+                <th>Days Left</th>
+                <th>Monthly Needed</th>
+            </tr>
+            {% for g in data.savings_report.goals %}
+            <tr>
+                <td>{{ g.name }}</td>
+                <td>${{ "%.2f"|format(g.target) }}</td>
+                <td>${{ "%.2f"|format(g.current) }}</td>
+                <td>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: {{ min(g.progress, 100) }}%"></div>
+                    </div>
+                    {{ "%.1f"|format(g.progress) }}%
+                </td>
+                <td>{{ g.remaining_days }}</td>
+                <td>${{ "%.2f"|format(g.monthly_needed) }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    <div class="footer">
+        <p>Generated by AI Support App - Financial Report</p>
+    </div>
+</body>
+</html>

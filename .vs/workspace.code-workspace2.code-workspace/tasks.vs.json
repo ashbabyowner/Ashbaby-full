@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-ai-support-app",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-ai-support-app",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Your Monthly Financial Report - {{ month }}{% endblock %}
+
+{% block content %}
+<div class="alert alert-info">
+    <h2>Monthly Financial Health Overview</h2>
+    <div class="metrics">
+        <div class="metric">
+            <div class="metric-value">${{ "%.2f"|format(metrics.net_worth) }}</div>
+            <div class="metric-label">Net Worth</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">{{ "%.1f"|format(metrics.savings_rate) }}%</div>
+            <div class="metric-label">Savings Rate</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">{{ "%.1f"|format(metrics.emergency_fund) }}</div>
+            <div class="metric-label">Emergency Fund (months)</div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h3>Financial Health Dashboard</h3>
+    <div class="chart">
+        <img src="data:image/png;base64,{{ dashboard_image }}" alt="Financial Health Dashboard">
+    </div>
+</div>
+
+<div class="section">
+    <h3>Key Metrics</h3>
+    <ul>
+        <li>Monthly Income: ${{ "%.2f"|format(metrics.monthly_income) }}</li>
+        <li>Monthly Expenses: ${{ "%.2f"|format(metrics.monthly_expenses) }}</li>
+        <li>Debt-to-Income Ratio: {{ "%.1f"|format(metrics.debt_to_income) }}%</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>Financial Health Summary</h3>
+    <ul>
+        {% if metrics.savings_rate >= 20 %}
+        <li class="positive">Your savings rate is excellent! Keep up the good work!</li>
+        {% else %}
+        <li class="warning">Consider increasing your savings rate to reach your financial goals faster.</li>
+        {% endif %}
+
+        {% if metrics.emergency_fund >= 6 %}
+        <li class="positive">Your emergency fund is well-established!</li>
+        {% else %}
+        <li class="warning">Work on building your emergency fund to {{ 6 - metrics.emergency_fund }} more months of expenses.</li>
+        {% endif %}
+
+        {% if metrics.debt_to_income <= 36 %}
+        <li class="positive">Your debt-to-income ratio is healthy!</li>
+        {% else %}
+        <li class="warning">Consider strategies to reduce your debt-to-income ratio.</li>
+        {% endif %}
+    </ul>
+</div>
+
+<div class="section">
+    <h3>Recommendations</h3>
+    <ul>
+        {% if metrics.savings_rate < 20 %}
+        <li>Look for opportunities to increase your income or reduce expenses</li>
+        <li>Review your budget for potential savings</li>
+        {% endif %}
+
+        {% if metrics.emergency_fund < 6 %}
+        <li>Prioritize building your emergency fund</li>
+        <li>Set up automatic transfers to your emergency savings</li>
+        {% endif %}
+
+        {% if metrics.debt_to_income > 36 %}
+        <li>Consider debt consolidation options</li>
+        <li>Focus on paying down high-interest debt</li>
+        {% endif %}
+    </ul>
+</div>
+
+<div class="alert alert-info">
+    <p>A detailed PDF report is attached to this email for your records.</p>
+    <a href="#" class="button">View Full Report Online</a>
+</div>
+{% endblock %}
