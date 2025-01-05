@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj": {}
+    "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj": {
+    "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
+        "projectUniqueName": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
         "projectName": "Ash again.AppHost",
-        "projectPath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
+        "projectPath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
         "packagesPath": "C:\\Users\\Cortn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\obj\\",
+        "outputPath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,13 @@
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\bin\Debug\net8.0\Ash again.ServiceDefaults.deps.json
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\bin\Debug\net8.0\Ash again.ServiceDefaults.dll
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\bin\Debug\net8.0\Ash again.ServiceDefaults.pdb
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.AssemblyInfo.cs
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.sourcelink.json
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.dll
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\refint\Ash again.ServiceDefaults.dll
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\Ash again.ServiceDefaults.pdb
+C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.ServiceDefaults\obj\Debug\net8.0\ref\Ash again.ServiceDefaults.dll

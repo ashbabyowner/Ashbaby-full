@@ -8,5 +8,5 @@ namespace Projects;
 public class Ash_again_AppHost
 {
     private Ash_again_AppHost() { }
-    public static string ProjectPath => """C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again.AppHost""";
+    public static string ProjectPath => """C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost""";
 }

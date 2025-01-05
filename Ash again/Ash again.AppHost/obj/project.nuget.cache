@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMLBnCD3Qgg=",
+  "dgSpecHash": "DiwnB3xPzEc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\Ash again\\Ash again.AppHost\\Ash again.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cortn\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\aspire.dashboard.sdk.win-x64.9.0.0.nupkg.sha512",
     "C:\\Users\\Cortn\\.nuget\\packages\\aspire.hosting\\9.0.0\\aspire.hosting.9.0.0.nupkg.sha512",

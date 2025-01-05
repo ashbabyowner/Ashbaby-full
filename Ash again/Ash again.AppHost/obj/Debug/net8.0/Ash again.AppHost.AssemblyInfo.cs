@@ -17,14 +17,15 @@ using System.Reflection;
     "xt\\"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", ("C:\\Users\\Cortn\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\e" +
     "xt\\bin\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("C:\\Users\\Cortn\\CascadeProjects\\ai-support-app\\Ash again\\Ash again\\Ashbaby-full\\As" +
+    "h again\\Ash again.AppHost"))]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "Ash again.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\Cortn\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\tools\\Aspire.Da" +
     "shboard.exe"))]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ash again.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37fcd876e20f1efcc8895ec54613a42f0ac043e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b5a855eff593b81c5df75a9825cd27ed6b86d8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ash again.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ash again.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

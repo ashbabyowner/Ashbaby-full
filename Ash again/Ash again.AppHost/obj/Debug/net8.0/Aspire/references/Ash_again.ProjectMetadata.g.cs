@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class Ash_again : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ash again.csproj""";
+    public string ProjectPath => """C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again\Ash again.csproj""";
 }
