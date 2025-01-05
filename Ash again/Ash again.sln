@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -7,6 +7,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ash again.AppHost", "Ash again.AppHost\Ash again.AppHost.csproj", "{AB2E7D9C-1AC7-47FC-A023-891BA64C1480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ash again.ServiceDefaults", "Ash again.ServiceDefaults\Ash again.ServiceDefaults.csproj", "{83EFE1E5-53C5-469D-A8F8-AD50F3C3C4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost1", "AppHost1\AppHost1.csproj", "{4C5E22B7-6581-4B73-BA37-C6F418A62696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{83EFE1E5-53C5-469D-A8F8-AD50F3C3C4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83EFE1E5-53C5-469D-A8F8-AD50F3C3C4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83EFE1E5-53C5-469D-A8F8-AD50F3C3C4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5E22B7-6581-4B73-BA37-C6F418A62696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5E22B7-6581-4B73-BA37-C6F418A62696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5E22B7-6581-4B73-BA37-C6F418A62696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5E22B7-6581-4B73-BA37-C6F418A62696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

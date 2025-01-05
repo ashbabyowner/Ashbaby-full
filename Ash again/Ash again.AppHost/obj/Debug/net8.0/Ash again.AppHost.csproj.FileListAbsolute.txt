@@ -1,8 +1,0 @@
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.csproj.AssemblyReference.cache
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.AssemblyInfoInputs.cache
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.AssemblyInfo.cs
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.csproj.CoreCompileInputs.cache
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Aspire\references\Ash_again.ProjectMetadata.g.cs
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
-C:\Users\Cortn\CascadeProjects\ai-support-app\Ash again\Ash again\Ashbaby-full\Ash again\Ash again.AppHost\obj\Debug\net8.0\Ash again.AppHost.sourcelink.json
