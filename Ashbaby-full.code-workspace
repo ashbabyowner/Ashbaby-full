@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../.chat"
+		},
+		{
+			"path": "../../.codegpt"
+		},
+		{
+			"path": "../../.git"
+		},
+		{
+			"path": "../../.project"
+		},
+		{
+			"path": "../../.venv"
+		},
+		{
+			"path": "../../.vs"
+		},
+		{
+			"path": "../../.vscode"
+		},
+		{
+			"path": "../../AppHost1"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Ash again.AppHost"
+		},
+		{
+			"path": "../../Ash again.ServiceDefaults"
+		},
+		{
+			"path": "../../data"
+		},
+		{
+			"path": "../AppHost1"
+		},
+		{
+			"path": "../Ash again"
+		},
+		{
+			"path": "../Ash again.AppHost"
+		},
+		{
+			"path": "../Ash again.ServiceDefaults"
+		},
+		{
+			"path": "../Controllers"
+		},
+		{
+			"path": "../obj"
+		},
+		{
+			"path": "../Properties"
+		}
+	],
+	"settings": {
+		"cmake.options.statusBarVisibility": "visible"
+	}
+}
